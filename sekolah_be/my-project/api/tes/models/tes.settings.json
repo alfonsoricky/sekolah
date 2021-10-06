@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tes",
+  "info": {
+    "name": "tes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "te": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_adfdsf_tes",
+  "info": {
+    "name": "tes",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "tes": {
+      "type": "string"
+    }
+  }
+}

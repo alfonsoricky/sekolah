@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/worksheets",
+      "handler": "worksheets.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/worksheets/count",
+      "handler": "worksheets.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/worksheets/:id",
+      "handler": "worksheets.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/worksheets",
+      "handler": "worksheets.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/worksheets/:id",
+      "handler": "worksheets.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/worksheets/:id",
+      "handler": "worksheets.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

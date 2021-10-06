@@ -1,0 +1,97 @@
+{
+  "kind": "collectionType",
+  "collectionName": "catalogs",
+  "info": {
+    "name": "catalogs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ControlNumber": {
+      "type": "string"
+    },
+    "BBID": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Author": {
+      "type": "string"
+    },
+    "Eddition": {
+      "type": "string"
+    },
+    "Pubblisher": {
+      "type": "string"
+    },
+    "PublishLocation": {
+      "type": "string"
+    },
+    "PublishYear": {
+      "type": "string"
+    },
+    "Subject": {
+      "type": "string"
+    },
+    "PhysicalDescription": {
+      "type": "string"
+    },
+    "ISBN": {
+      "type": "string"
+    },
+    "CallNumber": {
+      "type": "string"
+    },
+    "Note": {
+      "type": "string"
+    },
+    "Language": {
+      "type": "string"
+    },
+    "DeweyNo": {
+      "type": "string"
+    },
+    "ApproveDateOPAC": {
+      "type": "datetime"
+    },
+    "IsOPAC": {
+      "type": "string"
+    },
+    "IsBNI": {
+      "type": "boolean"
+    },
+    "IsKIN": {
+      "type": "boolean"
+    },
+    "IsRDA": {
+      "type": "boolean"
+    },
+    "CoverURL": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "branchs": {
+      "model": "branchs"
+    },
+    "CreateTerminal": {
+      "type": "string"
+    },
+    "UpdateTerminal": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "worksheets",
+  "info": {
+    "name": "Worksheets",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Format_id": {
+      "type": "integer"
+    }
+  }
+}

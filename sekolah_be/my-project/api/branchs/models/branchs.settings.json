@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "branchs",
+  "info": {
+    "name": "Branchs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Code": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "CreateTerminal": {
+      "type": "string"
+    },
+    "UpdateTerminal": {
+      "type": "string"
+    }
+  }
+}

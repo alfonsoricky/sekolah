@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/branchs",
+      "handler": "branchs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/branchs/count",
+      "handler": "branchs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/branchs/:id",
+      "handler": "branchs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/branchs",
+      "handler": "branchs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/branchs/:id",
+      "handler": "branchs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/branchs/:id",
+      "handler": "branchs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
